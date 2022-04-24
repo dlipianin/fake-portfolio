@@ -1,0 +1,160 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/*main {
+  padding: 5%;
+}*/
+
+#navbar {
+  background-color: #ff6363;
+  overflow: hidden;
+  padding: 1.5% 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.nav-link:hover {
+  background-color: whitesmoke;
+  color: #ff6363;
+}
+
+#welcome-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+#welcome-section h1 {
+  font-size: 4.5rem;
+}
+
+#welcome-section h2 {
+  font-size: 2.5rem;
+}
+
+#projects {
+  text-align: center;
+  background-color: #ff6363;
+  padding: 5% 0;
+}
+
+#projects h1 {
+  color: white;
+}
+
+hr {
+  border: 1px solid white;
+  width: 70%;
+  margin: auto;
+}
+
+#projects img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#projects a {
+  text-decoration: none;
+  color: white;
+}
+
+figure {
+  padding: 5%;
+  border-radius: 5px;
+}
+
+figcaption {
+  background-color: #d35d5d;
+  padding: 3%;
+  font-size: 1.25rem;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+figcaption:hover {
+  background-color: black;
+}
+
+#projects button {
+  background-color: #d35d5d;
+  font-size: 1.25rem;
+}
+
+#contact {
+  padding: 10% 5%;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+#contact h1 {
+  font-size: 4rem;
+}
+
+#contact p {
+  font-size: 2rem;
+}
+
+#contact div {
+  padding: 5% 0;
+}
+
+#contact a {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 2%;
+  font-size: 1.5rem;
+}
+
+#contact a:hover {
+  color: #ff6363;
+}
+
+footer {
+  font-size: 1.25rem;
+  background-color: #ff6363;
+  color: white;
+}
+
+footer div {
+  padding: 5%;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  #welcome-section h1 {
+    font-size: 2.5rem;
+  }
+  #welcome-section h2 {
+    font-size: 1.5rem;
+  }
+  #contact h1 {
+    font-size: 2.5rem;
+  }
+  #contact p {
+    font-size: 1.5rem;
+  }
+  #contact a {
+    font-size: 1rem;
+  }
+}
